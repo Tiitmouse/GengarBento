@@ -343,17 +343,19 @@ body {
 
 .darkImageBlock {
   position: absolute;
-  top: 70%;
-  left: 75%;
+  top: 60%;
+  left: 65%;
   transform: translate(-50%, -50%);
   pointer-events: none; /* Disable user interaction */
   z-index: -1;
 }
 
 .darkImageBlock img {
-  width: 90rem;
+    width: 90rem;
   height: auto;
-  opacity: 0.4;
+  opacity: 0.7;
+  margin-top: -5rem;
+  opacity: 0.6;
   /* margin-top: -10rem; /* You can remove this if not needed */
 }
 
