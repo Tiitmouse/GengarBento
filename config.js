@@ -18,7 +18,7 @@ const CONFIG = {
 	// Greetings
 	greetingMorning: 'Morninn...',
 	greetingAfternoon: 'Yello',
-	greetingEvening: 'Evenin,',
+	greetingEvening: 'Evenin',
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
@@ -52,9 +52,9 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/',
+			name: 'pinterest',
+			icon: 'pin',
+			link: 'https://www.pinterest.com/',
 		},
 		{
 			id: '2',
@@ -86,65 +86,46 @@ const CONFIG = {
 			icon: 'mail-question',
 			link: 'https://mail.google.com/mail/u/0/#inbox',
 		},
-		// TODO add pac man 
-		{
-			id: '7',
-			name: 'sflix',
-			icon: 'ghost',
-			link: 'https://sflix.to/',
-		},
-		{
-			id: '8',
-			name: 'animesuge',
-			icon: 'ghost',
-			link: 'https://animesuge.to/home',
-		},
-		{
-			id: '9',
-			name: 'pinterest',
-			icon: 'ghost',
-			link: 'https://www.pinterest.com/',
-		},
 	],
 
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
+	// secondButtonsContainer: [
+	// 	{
+	// 		id: '1',
+	// 		name: 'Music',
+	// 		icon: 'headphones',
+	// 		link: 'https://open.spotify.com',
+	// 	},
+	// 	{
+	// 		id: '2',
+	// 		name: 'twitter',
+	// 		icon: 'twitter',
+	// 		link: 'https://twitter.com/',
+	// 	},
+	// 	{
+	// 		id: '3',
+	// 		name: 'bot',
+	// 		icon: 'bot',
+	// 		link: 'https://discord.com/app',
+	// 	},
+	// 	{
+	// 		id: '4',
+	// 		name: 'Amazon',
+	// 		icon: 'shopping-bag',
+	// 		link: 'https://amazon.com/',
+	// 	},
+	// 	{
+	// 		id: '5',
+	// 		name: 'Hashnode',
+	// 		icon: 'pen-tool',
+	// 		link: 'https://hashnode.com/',
+	// 	},
+	// 	{
+	// 		id: '6',
+	// 		name: 'Figma',
+	// 		icon: 'figma',
+	// 		link: 'https://figma.com/',
+	// 	},
+	// ],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -153,72 +134,20 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'popcorn',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'movies',
+					link: 'https://sflix.to/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'anime',
+					link: 'https://animesuge.to/home',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
-				},
-			],
-		},
-		{
-			icon: 'coffee',
-			id: '2',
-			links: [
-				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
-				},
-				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
-				},
-				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
-				},
-				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'series',
+					link: '',
 				},
 			],
 		},
@@ -227,22 +156,66 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'home',
+					link: 'https://github.com/Tiitmouse',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'repos',
+					link: 'https://github.com/Tiitmouse?tab=repositories',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'working on',
+					link: '',
 				},
 			],
 		},
 	],
+
+	// Second Links Container
+	// secondListsContainer: [
+	// 	{
+	// 		icon: 'binary',
+	// 		id: '1',
+	// 		links: [
+	// 			{
+	// 				name: 'Spotify',
+	// 				link: 'https://www.spotify.com',
+	// 			},
+	// 			{
+	// 				name: 'Reddit',
+	// 				link: 'https://www.reddit.com',
+	// 			},
+	// 			{
+	// 				name: 'Hashnode',
+	// 				link: 'https://www.hashnode.com',
+	// 			},
+	// 			{
+	// 				name: 'Pocket',
+	// 				link: 'https://www.pocket.com',
+	// 			},
+	// 		],
+	// 	},
+	// 	{
+	// 		icon: 'github',
+	// 		id: '2',
+	// 		links: [
+	// 			{
+	// 				name: 'Front',
+	// 				link: 'https://www.reddit.com/r/Frontend/',
+	// 			},
+	// 			{
+	// 				name: 'Rust',
+	// 				link: 'https://www.reddit.com/r/rust/',
+	// 			},
+	// 			{
+	// 				name: 'Go',
+	// 				link: 'https://www.reddit.com/r/golang/',
+	// 			},
+	// 			{
+	// 				name: 'Repos',
+	// 				link: 'https://github.com/migueravila',
+	// 			},
+	// 		],
+	// 	},
+	// ],
 };

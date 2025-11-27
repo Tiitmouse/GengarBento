@@ -23,7 +23,7 @@ const generateLayout = () => {
 	switch (CONFIG.bentoLayout) {
 		case 'bento':
 			linksBlockLeft.insertAdjacentHTML(position, firstButtonsContainer);
-			// linksBlockRight.insertAdjacentHTML(position, firstListsContainer);
+			linksBlockRight.insertAdjacentHTML(position, firstListsContainer);
 			linksBlock.classList.remove('reduceGap');
 			linksBlock.classList.remove('removeGap');
 			break;
