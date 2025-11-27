@@ -58,9 +58,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'bitbucket',
-			icon: 'code',
-			link: 'https://bitbucket.org/',
+			name: 'gemini',
+			icon: 'sparkles',
+			link: 'https://gemini.google.com/',
 		},
 		{
 			id: '3',
