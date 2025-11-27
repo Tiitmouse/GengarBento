@@ -147,7 +147,7 @@ const CONFIG = {
 				},
 				{
 					name: 'series',
-					link: '',
+					link: 'https://soap2day.host/',
 				},
 			],
 		},

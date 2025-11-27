@@ -361,7 +361,7 @@ body {
 
 .lightImageBlock {
   position: absolute;
-  top: 60%;
+  top: 55%;
   left: 65%;
   transform: translate(-50%, -50%);
   pointer-events: none; /* Disable user interaction */
@@ -369,7 +369,7 @@ body {
 }
 
 .lightImageBlock img {
-  width: 90rem;
+  width: 110rem;
   height: auto;
   opacity: 0.7;
   margin-top: -5rem;
