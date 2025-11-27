@@ -49,7 +49,7 @@
   --sfg: #1a0a2e; /* Secondary Foreground color */
 
   /* Image background  */
-  --imgbg: url(assets/gifs/gengar_gif.gif); /* Image URL */
+  --imgbg: url(assets/gifs/single_gengar.gif); /* Image URL */
   --imgcol: linear-gradient(
     rgba(0, 0, 0, 0.1),
     rgba(0, 0, 0, 0.1)
@@ -343,18 +343,18 @@ body {
 
 .darkImageBlock {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 70%;
+  left: 75%;
   transform: translate(-50%, -50%);
   pointer-events: none; /* Disable user interaction */
   z-index: -1;
 }
 
 .darkImageBlock img {
-  width: 60rem;
+  width: 90rem;
   height: auto;
-  opacity: 0.7;
-  margin-top: -5rem; /* You can remove this if not needed */
+  opacity: 0.4;
+  /* margin-top: -10rem; /* You can remove this if not needed */
 }
 
 .lightImageBlock {
