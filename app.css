@@ -361,15 +361,15 @@ body {
 
 .lightImageBlock {
   position: absolute;
-  top: 55%;
-  left: 65%;
+  top: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   pointer-events: none; /* Disable user interaction */
   z-index: -1;
 }
 
 .lightImageBlock img {
-  width: 110rem;
+  width: 130rem;
   height: auto;
   opacity: 0.7;
   margin-top: -5rem;

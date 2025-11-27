@@ -16,10 +16,10 @@ const CONFIG = {
 	twelveHourFormat: true,
 
 	// Greetings
-	greetingMorning: 'Morninn...',
-	greetingAfternoon: 'Yello',
-	greetingEvening: 'Evenin',
-	greetingNight: 'Go to Sleep!',
+	greetingMorning: '¡Qué madrugador!',
+	greetingAfternoon: 'Con calma...',
+	greetingEvening: '¿Sobreviviendo?',
+	greetingNight: '¡Vete a dormir ya!',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
@@ -138,7 +138,7 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'movies',
+					name: 'peliculas',
 					link: 'https://sflix.to/',
 				},
 				{
@@ -156,15 +156,15 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'home',
+					name: 'inicio',
 					link: 'https://github.com/Tiitmouse',
 				},
 				{
-					name: 'repos',
+					name: 'repositorios',
 					link: 'https://github.com/Tiitmouse?tab=repositories',
 				},
 				{
-					name: 'working on',
+					name: 'lo actual',
 					link: '',
 				},
 			],
