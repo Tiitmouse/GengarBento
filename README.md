@@ -1,8 +1,11 @@
-![image](assets/img/header.png)
+![image](assets/img/split.png)
+
+<img src="assets/gifs/recording.gif" alt="recording gif">
+
 
 <br />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=VT323&size=45&duration=3500&pause=1000&color=8110F7&width=435&lines=Gengar+themed+startup+page" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=VT323&size=45&duration=3500&pause=1000&color=8110F7&width=435&lines=Gengar+startup+page" alt="Typing SVG" /></a>
 ###### forked repo from https://github.com/migueravila/Bento
 
 ## ✨ Features
