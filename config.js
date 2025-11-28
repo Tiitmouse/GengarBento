@@ -164,8 +164,8 @@ const CONFIG = {
 					link: 'https://github.com/Tiitmouse?tab=repositories',
 				},
 				{
-					name: 'lo actual',
-					link: '',
+					name: 'aoc',
+					link: 'https://adventofcode.com/',
 				},
 			],
 		},
